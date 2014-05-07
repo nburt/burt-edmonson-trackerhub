@@ -16,7 +16,3 @@ feature 'Veiwing Tracker Stories' do
     expect(page).to have_content("Can login with Twitter")
   end
 end
-
-#Given I go to the projects page
-#When I click on a project
-#I see a list of all of that projects stories
