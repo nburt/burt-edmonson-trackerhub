@@ -11,4 +11,13 @@ class TrackerApi
     end
     response.body
   end
+
+  def get_stories(project_id)
+    connection = Faraday.new("https://www.pivotaltracker.com/services/v5/projects/#{project_id}/stories")
+    response = connection.get do |req|
+      req.url "https://www.pivotaltracker.com/services/v5/projects/#{project_id}/stories"
+      req.headers['X-TrackerToken'] = @api_token
+    end
+    response.body
+  end
 end
