@@ -1,0 +1,143 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:<GITHUB_PASSWORD>@api.github.com/repos/<GITHUB_USERNAME>/burt-edmonson-trackerhub/commits/87cae6179107e7a0c220f3f83f23edd58cb54c21/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:20:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4971'
+      X-Ratelimit-Reset:
+      - '1399584493'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"bf9cb9fca9bf1e809329a5fb7e0079e9"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:041A:E126C9:536BF50D
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - a8d8e492d6966f0c23dee2eed64c678a
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/burt-edmonson-trackerhub/comments/6260882","html_url":"https://github.com/<GITHUB_USERNAME>/burt-edmonson-trackerhub/commit/87cae6179107e7a0c220f3f83f23edd58cb54c21#commitcomment-6260882","id":6260882,"user":{"login":"<GITHUB_USERNAME>","id":5788989,"avatar_url":"https://avatars.githubusercontent.com/u/5788989?","gravatar_id":"7efdbfec6d8826127f16b24450d6052c","url":"https://api.github.com/users/<GITHUB_USERNAME>","html_url":"https://github.com/<GITHUB_USERNAME>","followers_url":"https://api.github.com/users/<GITHUB_USERNAME>/followers","following_url":"https://api.github.com/users/<GITHUB_USERNAME>/following{/other_user}","gists_url":"https://api.github.com/users/<GITHUB_USERNAME>/gists{/gist_id}","starred_url":"https://api.github.com/users/<GITHUB_USERNAME>/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/<GITHUB_USERNAME>/subscriptions","organizations_url":"https://api.github.com/users/<GITHUB_USERNAME>/orgs","repos_url":"https://api.github.com/users/<GITHUB_USERNAME>/repos","events_url":"https://api.github.com/users/<GITHUB_USERNAME>/events{/privacy}","received_events_url":"https://api.github.com/users/<GITHUB_USERNAME>/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"87cae6179107e7a0c220f3f83f23edd58cb54c21","created_at":"2014-05-08T19:49:41Z","updated_at":"2014-05-08T19:49:41Z","body":"Testing
+        comment functionality"}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:13 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:<GITHUB_PASSWORD>@api.github.com/repos/<GITHUB_USERNAME>/burt-edmonson-trackerhub/commits/130e06ce8ff7da546afc2182cb27a37739f94df1/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:20:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4970'
+      X-Ratelimit-Reset:
+      - '1399584493'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"9bd04d5442878dd5348b2217fbf0e40b"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:041E:9E66EBC:536BF50D
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 132026e9262a0093e437f99db5f1e499
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/burt-edmonson-trackerhub/comments/6260885","html_url":"https://github.com/<GITHUB_USERNAME>/burt-edmonson-trackerhub/commit/130e06ce8ff7da546afc2182cb27a37739f94df1#commitcomment-6260885","id":6260885,"user":{"login":"<GITHUB_USERNAME>","id":5788989,"avatar_url":"https://avatars.githubusercontent.com/u/5788989?","gravatar_id":"7efdbfec6d8826127f16b24450d6052c","url":"https://api.github.com/users/<GITHUB_USERNAME>","html_url":"https://github.com/<GITHUB_USERNAME>","followers_url":"https://api.github.com/users/<GITHUB_USERNAME>/followers","following_url":"https://api.github.com/users/<GITHUB_USERNAME>/following{/other_user}","gists_url":"https://api.github.com/users/<GITHUB_USERNAME>/gists{/gist_id}","starred_url":"https://api.github.com/users/<GITHUB_USERNAME>/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/<GITHUB_USERNAME>/subscriptions","organizations_url":"https://api.github.com/users/<GITHUB_USERNAME>/orgs","repos_url":"https://api.github.com/users/<GITHUB_USERNAME>/repos","events_url":"https://api.github.com/users/<GITHUB_USERNAME>/events{/privacy}","received_events_url":"https://api.github.com/users/<GITHUB_USERNAME>/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"130e06ce8ff7da546afc2182cb27a37739f94df1","created_at":"2014-05-08T19:49:48Z","updated_at":"2014-05-08T19:49:48Z","body":"Testing
+        comment functionality 2"}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:13 GMT
+recorded_with: VCR 2.9.0

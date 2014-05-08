@@ -5,9 +5,20 @@
   </ul>
 <% end %>
 
-<h1>Tracker Comments</h1>
-<% @tracker_comments.each do |comment| %>
+<% if @tracker_comments != nil %>
+  <h1>Tracker Comments</h1>
+  <% @tracker_comments.each do |comment| %>
+    <ul>
+      <li><%= comment["text"] %></li>
+    </ul>
+  <% end %>
+<% end %>
+
+<% if @github_comments != nil %>
+  <h1>GitHub Comments</h1>
   <ul>
-    <li><%= comment %></li>
+    <% @github_comments.each do |comment| %>
+      <li><%= comment %></li>
+    <% end %>
   </ul>
 <% end %>

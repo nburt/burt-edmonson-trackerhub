@@ -31,11 +31,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9771621787eb51ab34179dc1e6951660
+      - 3a44f1666248cf08b0ea4c76fa068c4f
       X-Runtime:
-      - '0.253731'
+      - '0.275178'
       Date:
-      - Thu, 08 May 2014 17:24:34 GMT
+      - Thu, 08 May 2014 21:20:08 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -54,6 +54,68 @@ http_interactions:
       encoding: UTF-8
       string: |-
         [
+          {
+            "id": 1075500,
+            "kind": "project",
+            "name": "Burt and Edmonson's TrackerHub",
+            "version": 26,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T07:00:00Z",
+            "created_at": "2014-05-07T19:08:30Z",
+            "updated_at": "2014-05-07T19:47:51Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
+            "enable_following": true
+          },
+          {
+            "id": 1060104,
+            "kind": "project",
+            "name": "Nathanael's User Authentication",
+            "version": 99,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-04-14T07:00:00Z",
+            "created_at": "2014-04-14T19:49:05Z",
+            "updated_at": "2014-04-14T19:49:05Z",
+            "account_id": 622224,
+            "current_iteration_number": 4,
+            "enable_following": true
+          },
           {
             "id": 1071248,
             "kind": "project",
@@ -86,41 +148,10 @@ http_interactions:
             "enable_following": true
           },
           {
-            "id": 1075500,
-            "kind": "project",
-            "name": "Burt and Edmonson's TrackerHub",
-            "version": 21,
-            "iteration_length": 1,
-            "week_start_day": "Monday",
-            "point_scale": "0,1,2,3",
-            "point_scale_is_custom": false,
-            "bugs_and_chores_are_estimatable": false,
-            "enable_planned_mode": false,
-            "enable_tasks": true,
-            "time_zone": {
-              "kind": "time_zone",
-              "olson_name": "America/Los_Angeles",
-              "offset": "-07:00"
-            },
-            "velocity_averaged_over": 3,
-            "number_of_done_iterations_to_show": 12,
-            "has_google_domain": false,
-            "enable_incoming_emails": true,
-            "initial_velocity": 10,
-            "public": false,
-            "atom_enabled": false,
-            "start_time": "2014-05-05T07:00:00Z",
-            "created_at": "2014-05-07T19:08:30Z",
-            "updated_at": "2014-05-07T19:47:51Z",
-            "account_id": 622224,
-            "current_iteration_number": 1,
-            "enable_following": true
-          },
-          {
             "id": 966426,
             "kind": "project",
             "name": "gSchoolMarch2014Curriculum",
-            "version": 2370,
+            "version": 2379,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -238,37 +269,6 @@ http_interactions:
             "updated_at": "2014-04-23T19:51:21Z",
             "account_id": 622224,
             "current_iteration_number": 3,
-            "enable_following": true
-          },
-          {
-            "id": 1060104,
-            "kind": "project",
-            "name": "Nathanael's User Authentication",
-            "version": 99,
-            "iteration_length": 1,
-            "week_start_day": "Monday",
-            "point_scale": "0,1,2,3",
-            "point_scale_is_custom": false,
-            "bugs_and_chores_are_estimatable": false,
-            "enable_planned_mode": false,
-            "enable_tasks": true,
-            "time_zone": {
-              "kind": "time_zone",
-              "olson_name": "America/Los_Angeles",
-              "offset": "-07:00"
-            },
-            "velocity_averaged_over": 3,
-            "number_of_done_iterations_to_show": 12,
-            "has_google_domain": false,
-            "enable_incoming_emails": true,
-            "initial_velocity": 10,
-            "public": false,
-            "atom_enabled": false,
-            "start_time": "2014-04-14T07:00:00Z",
-            "created_at": "2014-04-14T19:49:05Z",
-            "updated_at": "2014-04-14T19:49:05Z",
-            "account_id": 622224,
-            "current_iteration_number": 4,
             "enable_following": true
           },
           {
@@ -428,7 +428,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:34 GMT
+  recorded_at: Thu, 08 May 2014 21:20:07 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories
@@ -470,11 +470,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e8f6b43b1966ed0f5d3a6bd9ffa9e274
+      - da0984f7531a76764916a09eca4c6fd0
       X-Runtime:
-      - '0.038909'
+      - '0.040116'
       Date:
-      - Thu, 08 May 2014 17:24:34 GMT
+      - Thu, 08 May 2014 21:20:08 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -812,7 +812,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:34 GMT
+  recorded_at: Thu, 08 May 2014 21:20:08 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/
@@ -854,11 +854,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 744e6df9d8ac949c1014845a9de15aca
+      - aa3f95030bc8a50d8c95046e893ee22a
       X-Runtime:
-      - '0.034571'
+      - '0.030476'
       Date:
-      - Thu, 08 May 2014 17:24:35 GMT
+      - Thu, 08 May 2014 21:18:55 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1196,10 +1196,10 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:34 GMT
+  recorded_at: Thu, 08 May 2014 21:20:08 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70484714/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70484714/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -1230,11 +1230,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0a37f416d124d9d3bce40f2d47e0211a
+      - 28815e3892c74a6331ac00d2bbd8f180
       X-Runtime:
-      - '0.034002'
+      - '0.028845'
       Date:
-      - Thu, 08 May 2014 17:24:35 GMT
+      - Thu, 08 May 2014 21:20:09 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1256,10 +1256,10 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:34 GMT
+  recorded_at: Thu, 08 May 2014 21:20:08 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70484780/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70484780/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -1290,11 +1290,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - a0053dffedd9e8be4e92b9207328ba1a
+      - 356c37cb7e11674026ea7279329eb2ac
       X-Runtime:
-      - '0.035178'
+      - '0.033803'
       Date:
-      - Thu, 08 May 2014 17:23:22 GMT
+      - Thu, 08 May 2014 21:20:09 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1333,10 +1333,10 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:35 GMT
+  recorded_at: Thu, 08 May 2014 21:20:09 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70484832/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70484832/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -1367,11 +1367,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 2ab35fb029241df20e95b1cfe64db3ff
+      - 21fe29147babaf877fe693c28dc7b79c
       X-Runtime:
-      - '0.031719'
+      - '0.043390'
       Date:
-      - Thu, 08 May 2014 17:24:35 GMT
+      - Thu, 08 May 2014 21:20:09 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1401,10 +1401,10 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:35 GMT
+  recorded_at: Thu, 08 May 2014 21:20:09 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70484868/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70484868/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -1435,11 +1435,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1d83a99c93ce92d19c0261c64390b7ad
+      - e22bfc3a81d9381d250ee470df846324
       X-Runtime:
-      - '0.030888'
+      - '0.029998'
       Date:
-      - Thu, 08 May 2014 17:24:36 GMT
+      - Thu, 08 May 2014 21:20:10 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1469,10 +1469,10 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:35 GMT
+  recorded_at: Thu, 08 May 2014 21:20:09 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70605736/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70605736/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -1503,11 +1503,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1d18102e5121649b5f8d58c45a072372
+      - 8a1034bec1d57aa01f45fb362a6e6196
       X-Runtime:
-      - '0.033455'
+      - '0.035703'
       Date:
-      - Thu, 08 May 2014 17:24:36 GMT
+      - Thu, 08 May 2014 21:20:10 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1529,10 +1529,10 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:35 GMT
+  recorded_at: Thu, 08 May 2014 21:20:09 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70615220/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70615220/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -1563,11 +1563,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9893084c96fe3c60f41f5a013ecee0e1
+      - aadaf610b62adbb933638c07de2441e3
       X-Runtime:
-      - '0.031811'
+      - '0.036205'
       Date:
-      - Thu, 08 May 2014 17:23:23 GMT
+      - Thu, 08 May 2014 21:20:10 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1589,10 +1589,10 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:36 GMT
+  recorded_at: Thu, 08 May 2014 21:20:10 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70628014/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70628014/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -1623,11 +1623,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - afc2827d1223690c78105102a0e14c6a
+      - eb98050ac9c75f4f2a5e85aea6265aa2
       X-Runtime:
-      - '0.030909'
+      - '0.031468'
       Date:
-      - Thu, 08 May 2014 17:24:37 GMT
+      - Thu, 08 May 2014 21:20:10 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1649,10 +1649,10 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:36 GMT
+  recorded_at: Thu, 08 May 2014 21:20:10 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70694828/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70694828/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -1683,11 +1683,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - bc64e6c88204d60c5671a7488dc44a29
+      - 2bee22e6f1e7b9d78cceda7763373c8b
       X-Runtime:
-      - '0.029615'
+      - '0.042716'
       Date:
-      - Thu, 08 May 2014 17:24:37 GMT
+      - Thu, 08 May 2014 21:18:57 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1709,10 +1709,10 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:36 GMT
+  recorded_at: Thu, 08 May 2014 21:20:10 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70484858/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70484858/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -1743,11 +1743,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - be00f215eb2404bcc926acb6fa9ffefd
+      - 87fa1e98a7d3ddb7bbffacfdaef2cd20
       X-Runtime:
-      - '0.036214'
+      - '0.033598'
       Date:
-      - Thu, 08 May 2014 17:24:37 GMT
+      - Thu, 08 May 2014 21:18:58 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1769,10 +1769,10 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:37 GMT
+  recorded_at: Thu, 08 May 2014 21:20:11 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70484900/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70484900/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -1803,11 +1803,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 237e8297ec8b64a38ff41186098efb04
+      - 95ad114c82783b20d6f47bed151f76c0
       X-Runtime:
-      - '0.028138'
+      - '0.040194'
       Date:
-      - Thu, 08 May 2014 17:24:37 GMT
+      - Thu, 08 May 2014 21:20:11 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1829,10 +1829,10 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:37 GMT
+  recorded_at: Thu, 08 May 2014 21:20:11 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70724800/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70724800/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -1863,11 +1863,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 18fc4899f518d717b81c7d97bc2dae0d
+      - 7d137247bf6dd99fd4aaced9be89f6b2
       X-Runtime:
-      - '0.036142'
+      - '0.032359'
       Date:
-      - Thu, 08 May 2014 17:23:24 GMT
+      - Thu, 08 May 2014 21:18:58 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1889,10 +1889,10 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:37 GMT
+  recorded_at: Thu, 08 May 2014 21:20:11 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70708464/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70708464/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -1923,11 +1923,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - a28d34974073ba7d04999a78fb956c75
+      - 4014175e9a71ff4586835c592e3e4711
       X-Runtime:
-      - '0.032599'
+      - '0.034803'
       Date:
-      - Thu, 08 May 2014 17:24:38 GMT
+      - Thu, 08 May 2014 21:18:58 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1949,10 +1949,10 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:37 GMT
+  recorded_at: Thu, 08 May 2014 21:20:11 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70690078/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70690078/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -1983,11 +1983,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9796c696ca36f2e3069e96ab0564926a
+      - eab5cb54d0c461524611ba2e0f7d6003
       X-Runtime:
-      - '0.032806'
+      - '0.037354'
       Date:
-      - Thu, 08 May 2014 17:24:38 GMT
+      - Thu, 08 May 2014 21:18:59 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -2009,10 +2009,10 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:38 GMT
+  recorded_at: Thu, 08 May 2014 21:20:12 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70639268/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70639268/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -2043,11 +2043,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 11c1b3e0ae71ea09d40fe590728444b5
+      - 40a1abac48d5cf3a8050f22ae7c7eac2
       X-Runtime:
-      - '0.034557'
+      - '0.033811'
       Date:
-      - Thu, 08 May 2014 17:24:38 GMT
+      - Thu, 08 May 2014 21:20:12 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -2069,10 +2069,10 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:38 GMT
+  recorded_at: Thu, 08 May 2014 21:20:12 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70484942/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70484942/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -2103,11 +2103,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 97ae9eca8db3dd304280987bef12bb79
+      - 5dc0bf815a469d70ad67c68e5095deb9
       X-Runtime:
-      - '0.037499'
+      - '0.031457'
       Date:
-      - Thu, 08 May 2014 17:23:25 GMT
+      - Thu, 08 May 2014 21:20:13 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -2129,10 +2129,10 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:38 GMT
+  recorded_at: Thu, 08 May 2014 21:20:12 GMT
 - request:
     method: get
-    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70613490/comments
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories/70613490/comments/
     body:
       encoding: US-ASCII
       string: ''
@@ -2163,11 +2163,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b424fc77373556200a4847f4dcbc2d1f
+      - 174db4db6c854aa93730159675c18175
       X-Runtime:
-      - '0.037681'
+      - '0.029310'
       Date:
-      - Thu, 08 May 2014 17:24:39 GMT
+      - Thu, 08 May 2014 21:20:13 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -2189,5 +2189,5 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 17:24:38 GMT
+  recorded_at: Thu, 08 May 2014 21:20:12 GMT
 recorded_with: VCR 2.9.0

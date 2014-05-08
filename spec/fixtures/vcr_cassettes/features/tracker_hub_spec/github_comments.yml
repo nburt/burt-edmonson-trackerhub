@@ -1,0 +1,1496 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f0ae7a269423f948b6308babf8730bf9
+      X-Runtime:
+      - '0.279499'
+      Date:
+      - Thu, 08 May 2014 21:20:04 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": 1075500,
+            "kind": "project",
+            "name": "Burt and Edmonson's TrackerHub",
+            "version": 26,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T07:00:00Z",
+            "created_at": "2014-05-07T19:08:30Z",
+            "updated_at": "2014-05-07T19:47:51Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
+            "enable_following": true
+          },
+          {
+            "id": 1060104,
+            "kind": "project",
+            "name": "Nathanael's User Authentication",
+            "version": 99,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-04-14T07:00:00Z",
+            "created_at": "2014-04-14T19:49:05Z",
+            "updated_at": "2014-04-14T19:49:05Z",
+            "account_id": 622224,
+            "current_iteration_number": 4,
+            "enable_following": true
+          },
+          {
+            "id": 1071248,
+            "kind": "project",
+            "name": "OneFeed",
+            "version": 94,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-04-28T07:00:00Z",
+            "created_at": "2014-04-30T23:20:25Z",
+            "updated_at": "2014-05-06T14:45:19Z",
+            "account_id": 622224,
+            "current_iteration_number": 2,
+            "enable_following": true
+          },
+          {
+            "id": 966426,
+            "kind": "project",
+            "name": "gSchoolMarch2014Curriculum",
+            "version": 2379,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Denver",
+              "offset": "-06:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-03-03T07:00:00Z",
+            "created_at": "2013-11-27T22:52:23Z",
+            "updated_at": "2013-12-19T04:01:52Z",
+            "account_id": 598246,
+            "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1073680,
+            "kind": "project",
+            "name": "Huskies Website",
+            "version": 8,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T07:00:00Z",
+            "created_at": "2014-05-05T17:41:07Z",
+            "updated_at": "2014-05-05T17:41:07Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
+            "enable_following": true
+          },
+          {
+            "id": 1069192,
+            "kind": "project",
+            "name": "quiet-water's Team CRUD",
+            "version": 260,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-04-28T07:00:00Z",
+            "created_at": "2014-04-28T17:18:16Z",
+            "updated_at": "2014-04-28T17:25:55Z",
+            "account_id": 622224,
+            "current_iteration_number": 2,
+            "enable_following": true
+          },
+          {
+            "id": 1066310,
+            "kind": "project",
+            "name": "URL Shortener Rails",
+            "version": 14,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-04-21T07:00:00Z",
+            "created_at": "2014-04-23T19:51:21Z",
+            "updated_at": "2014-04-23T19:51:21Z",
+            "account_id": 622224,
+            "current_iteration_number": 3,
+            "enable_following": true
+          },
+          {
+            "id": 1057666,
+            "kind": "project",
+            "name": "personal_website",
+            "version": 37,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-04-07T07:00:00Z",
+            "created_at": "2014-04-10T15:14:30Z",
+            "updated_at": "2014-04-10T15:14:30Z",
+            "account_id": 622224,
+            "current_iteration_number": 5,
+            "enable_following": true
+          },
+          {
+            "id": 1047372,
+            "kind": "project",
+            "name": "URL Shortener Project",
+            "version": 152,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-03-24T07:00:00Z",
+            "created_at": "2014-03-27T18:31:30Z",
+            "updated_at": "2014-03-27T18:31:30Z",
+            "account_id": 622224,
+            "current_iteration_number": 7,
+            "enable_following": true
+          },
+          {
+            "id": 1029350,
+            "kind": "project",
+            "name": "Nathanael Burt's Work",
+            "version": 365,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-03-03T08:00:00Z",
+            "created_at": "2014-03-04T18:59:51Z",
+            "updated_at": "2014-03-05T14:22:51Z",
+            "account_id": 622224,
+            "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1037360,
+            "kind": "project",
+            "name": "gSchoolScreenHeroRequests",
+            "version": 96,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-03-17T07:00:00Z",
+            "created_at": "2014-03-14T12:21:20Z",
+            "updated_at": "2014-03-14T12:21:20Z",
+            "account_id": 622224,
+            "current_iteration_number": 8,
+            "enable_following": true
+          },
+          {
+            "id": 1031130,
+            "kind": "project",
+            "name": "students.gschool.it",
+            "version": 174,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": true,
+            "start_time": "2014-03-03T08:00:00Z",
+            "created_at": "2014-03-06T15:20:39Z",
+            "updated_at": "2014-04-27T20:58:33Z",
+            "account_id": 598246,
+            "current_iteration_number": 10,
+            "enable_following": true
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:04 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075500/stories
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '26'
+      X-Tracker-Pagination-Total:
+      - '7'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '7'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - cd7685d79c4ba48ccf25d5096525692c
+      X-Runtime:
+      - '0.093085'
+      Date:
+      - Thu, 08 May 2014 21:18:51 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "story",
+            "id": 70885252,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T21:18:18Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view all of my projects",
+            "description": "Given I'm on the homepage\nWhen I click on \"View Projects\"\nI see a list of all projects\n\n---\nUse your own API token. Make sure you don't commit it (dotenv-rails). (https://www.pivotaltracker.com/help/api#Basics)",
+            "current_state": "rejected",
+            "requested_by_id": 1256928,
+            "project_id": 1075500,
+            "url": "https://www.pivotaltracker.com/story/show/70885252",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70885254,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T21:17:10Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "As a user, I can view all of the stories for a project",
+            "description": "Given I go to the projects page\nWhen I click on a project\nI see a list of all of that projects stories",
+            "current_state": "rejected",
+            "requested_by_id": 1256928,
+            "project_id": 1075500,
+            "url": "https://www.pivotaltracker.com/story/show/70885254",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70885258,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T21:18:29Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view Tracker comments for a project",
+            "description": "When I'm viewing a project\nThen I see all of the Tracker comments for that project across all stories\n",
+            "current_state": "rejected",
+            "requested_by_id": 1256928,
+            "project_id": 1075500,
+            "url": "https://www.pivotaltracker.com/story/show/70885258",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70885260,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T17:34:48Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can see the GitHub comments on a Tracker comment with a commit associated",
+            "description": "When I'm viewing a project\nAnd there is a comment that came from the GitHub integration\nThen I see the GitHub comments below the Tracker comment\n\n---\nYou must use basic authentication (https://developer.github.com/v3/#basic-authentication) for this otherwise we'll go over our rate limit (https://developer.github.com/v3/#rate-limiting) for GitHub.  ",
+            "current_state": "started",
+            "requested_by_id": 1256928,
+            "project_id": 1075500,
+            "url": "https://www.pivotaltracker.com/story/show/70885260",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70885262,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T19:08:52Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As a user, I can post a new GitHub comment for the a tracker commit comment (basic auth)",
+            "description": "Given I'm viewing a project\nAnd there is a commit comment\nWhen I click on \"Add Comment\"\nAnd I fill out the form\nThen I see my GitHub comment added to the commit in GitHub\nAnd displayed on the project page",
+            "current_state": "unstarted",
+            "requested_by_id": 1256928,
+            "project_id": 1075500,
+            "url": "https://www.pivotaltracker.com/story/show/70885262",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70885264,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T19:08:52Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can authenticate with GitHub",
+            "description": "When I visit the homepage\nAnd click on \"Log in with GitHub\"\nThen I'm logged in with github\nAnd I see my username in the nav bar\n\nPlease use omniauth gem!\nhttps://github.com/intridea/omniauth",
+            "current_state": "unstarted",
+            "requested_by_id": 1256928,
+            "project_id": 1075500,
+            "url": "https://www.pivotaltracker.com/story/show/70885264",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70885266,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T19:08:52Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As an authenticated user, I can post a commit comment for my GitHub account",
+            "description": "Given I'm authenticated with GitHub\nAnd I'm viewing a project\nWhen I click on \"Add Comment\"\nAnd I fill out the Form\nThen I see my GitHub comment added to the commit created by my account\nAnd I see it on the project page",
+            "current_state": "unstarted",
+            "requested_by_id": 1256928,
+            "project_id": 1075500,
+            "url": "https://www.pivotaltracker.com/story/show/70885266",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:04 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075500/stories/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '26'
+      X-Tracker-Pagination-Total:
+      - '7'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '7'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - aaacf8d3fded1bce64222a91f3b4212c
+      X-Runtime:
+      - '0.037213'
+      Date:
+      - Thu, 08 May 2014 21:20:04 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "story",
+            "id": 70885252,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T21:18:18Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view all of my projects",
+            "description": "Given I'm on the homepage\nWhen I click on \"View Projects\"\nI see a list of all projects\n\n---\nUse your own API token. Make sure you don't commit it (dotenv-rails). (https://www.pivotaltracker.com/help/api#Basics)",
+            "current_state": "rejected",
+            "requested_by_id": 1256928,
+            "project_id": 1075500,
+            "url": "https://www.pivotaltracker.com/story/show/70885252",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70885254,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T21:17:10Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "As a user, I can view all of the stories for a project",
+            "description": "Given I go to the projects page\nWhen I click on a project\nI see a list of all of that projects stories",
+            "current_state": "rejected",
+            "requested_by_id": 1256928,
+            "project_id": 1075500,
+            "url": "https://www.pivotaltracker.com/story/show/70885254",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70885258,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T21:18:29Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view Tracker comments for a project",
+            "description": "When I'm viewing a project\nThen I see all of the Tracker comments for that project across all stories\n",
+            "current_state": "rejected",
+            "requested_by_id": 1256928,
+            "project_id": 1075500,
+            "url": "https://www.pivotaltracker.com/story/show/70885258",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70885260,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T17:34:48Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can see the GitHub comments on a Tracker comment with a commit associated",
+            "description": "When I'm viewing a project\nAnd there is a comment that came from the GitHub integration\nThen I see the GitHub comments below the Tracker comment\n\n---\nYou must use basic authentication (https://developer.github.com/v3/#basic-authentication) for this otherwise we'll go over our rate limit (https://developer.github.com/v3/#rate-limiting) for GitHub.  ",
+            "current_state": "started",
+            "requested_by_id": 1256928,
+            "project_id": 1075500,
+            "url": "https://www.pivotaltracker.com/story/show/70885260",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70885262,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T19:08:52Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As a user, I can post a new GitHub comment for the a tracker commit comment (basic auth)",
+            "description": "Given I'm viewing a project\nAnd there is a commit comment\nWhen I click on \"Add Comment\"\nAnd I fill out the form\nThen I see my GitHub comment added to the commit in GitHub\nAnd displayed on the project page",
+            "current_state": "unstarted",
+            "requested_by_id": 1256928,
+            "project_id": 1075500,
+            "url": "https://www.pivotaltracker.com/story/show/70885262",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70885264,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T19:08:52Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can authenticate with GitHub",
+            "description": "When I visit the homepage\nAnd click on \"Log in with GitHub\"\nThen I'm logged in with github\nAnd I see my username in the nav bar\n\nPlease use omniauth gem!\nhttps://github.com/intridea/omniauth",
+            "current_state": "unstarted",
+            "requested_by_id": 1256928,
+            "project_id": 1075500,
+            "url": "https://www.pivotaltracker.com/story/show/70885264",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70885266,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T19:08:52Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As an authenticated user, I can post a commit comment for my GitHub account",
+            "description": "Given I'm authenticated with GitHub\nAnd I'm viewing a project\nWhen I click on \"Add Comment\"\nAnd I fill out the Form\nThen I see my GitHub comment added to the commit created by my account\nAnd I see it on the project page",
+            "current_state": "unstarted",
+            "requested_by_id": 1256928,
+            "project_id": 1075500,
+            "url": "https://www.pivotaltracker.com/story/show/70885266",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:04 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075500/stories/70885252/comments/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '26'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ed82013225cb2aea4331a1ca9772d91e
+      X-Runtime:
+      - '0.077333'
+      Date:
+      - Thu, 08 May 2014 21:20:05 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "comment",
+            "id": 68661850,
+            "story_id": 70885252,
+            "text": "This is a test comment on the first story",
+            "person_id": 534749,
+            "created_at": "2014-05-06T00:00:00Z",
+            "updated_at": "2014-05-07T19:08:52Z"
+          },
+          {
+            "kind": "comment",
+            "id": 68661852,
+            "story_id": 70885252,
+            "text": "This is a second test comment on the first story",
+            "person_id": 534749,
+            "created_at": "2014-05-06T00:00:00Z",
+            "updated_at": "2014-05-07T19:08:52Z"
+          },
+          {
+            "kind": "comment",
+            "id": 68672130,
+            "story_id": 70885252,
+            "text": "Commit by Nathanael Burt\nhttps://github.com/<GITHUB_USERNAME>/burt-edmonson-trackerhub/commit/87cae6179107e7a0c220f3f83f23edd58cb54c21\n\n[#70885252] displays the names of tracker projects\n\nSigned-off-by: Kaylee Edmonson <kaylee.edmonson@gmail.com>",
+            "person_id": 1256928,
+            "created_at": "2014-05-07T20:27:15Z",
+            "updated_at": "2014-05-07T20:27:15Z",
+            "commit_identifier": "87cae6179107e7a0c220f3f83f23edd58cb54c21",
+            "commit_type": "github"
+          },
+          {
+            "kind": "comment",
+            "id": 68686050,
+            "story_id": 70885252,
+            "text": "Heroku link in readme please so I can do acceptance.",
+            "person_id": 1234268,
+            "created_at": "2014-05-07T22:34:15Z",
+            "updated_at": "2014-05-07T22:34:15Z"
+          },
+          {
+            "kind": "comment",
+            "id": 68788436,
+            "story_id": 70885252,
+            "text": "It says \"Tracker Stories\" instead of Projects\n",
+            "person_id": 1308466,
+            "created_at": "2014-05-08T21:18:18Z",
+            "updated_at": "2014-05-08T21:18:18Z"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:04 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075500/stories/70885254/comments/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '26'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a9e610c459f812816cce8878afd24066
+      X-Runtime:
+      - '0.057478'
+      Date:
+      - Thu, 08 May 2014 21:20:05 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "comment",
+            "id": 68680826,
+            "story_id": 70885254,
+            "text": "Commit by Nathanael Burt\nhttps://github.com/<GITHUB_USERNAME>/burt-edmonson-trackerhub/commit/130e06ce8ff7da546afc2182cb27a37739f94df1\n\n[#70885254] Refactoring\n\ntracker api class now only has one method that takes the endpoint for the api call\n\nSigned-off-by: Kaylee Edmonson <kaylee.edmonson@gmail.com>",
+            "person_id": 1256928,
+            "created_at": "2014-05-07T21:38:44Z",
+            "updated_at": "2014-05-07T21:38:44Z",
+            "commit_identifier": "130e06ce8ff7da546afc2182cb27a37739f94df1",
+            "commit_type": "github"
+          },
+          {
+            "kind": "comment",
+            "id": 68788450,
+            "story_id": 70885254,
+            "text": "Heroku throws an error",
+            "person_id": 1308466,
+            "created_at": "2014-05-08T21:17:10Z",
+            "updated_at": "2014-05-08T21:17:10Z"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:05 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075500/stories/70885258/comments/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '26'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 57c42ffcbe087544be0b75a7d63e3642
+      X-Runtime:
+      - '0.046663'
+      Date:
+      - Thu, 08 May 2014 21:20:05 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "comment",
+            "id": 68661854,
+            "story_id": 70885258,
+            "text": "This is a comment on the comment story",
+            "person_id": 534749,
+            "created_at": "2014-05-06T00:00:00Z",
+            "updated_at": "2014-05-07T19:08:52Z"
+          },
+          {
+            "kind": "comment",
+            "id": 68788460,
+            "story_id": 70885258,
+            "text": "Heroku throws an error",
+            "person_id": 1308466,
+            "created_at": "2014-05-08T21:18:29Z",
+            "updated_at": "2014-05-08T21:18:29Z"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:05 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075500/stories/70885260/comments/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '26'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 643894f642cb6531f150a4f5fc54b840
+      X-Runtime:
+      - '0.049454'
+      Date:
+      - Thu, 08 May 2014 21:20:06 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:05 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075500/stories/70885262/comments/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '26'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ba535fe68923a1efd1541cf45f3ca861
+      X-Runtime:
+      - '0.041961'
+      Date:
+      - Thu, 08 May 2014 21:20:06 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:06 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075500/stories/70885264/comments/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '26'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 3c019c1e9352fc5f7e87998bb3bf1e00
+      X-Runtime:
+      - '0.042428'
+      Date:
+      - Thu, 08 May 2014 21:20:06 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:06 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075500/stories/70885266/comments/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '26'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d6a130f37b465a455e377605d051a913
+      X-Runtime:
+      - '0.036166'
+      Date:
+      - Thu, 08 May 2014 21:20:06 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:06 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:<GITHUB_PASSWORD>@api.github.com/repos/<GITHUB_USERNAME>/burt-edmonson-trackerhub/commits/87cae6179107e7a0c220f3f83f23edd58cb54c21/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:20:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4973'
+      X-Ratelimit-Reset:
+      - '1399584493'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"bf9cb9fca9bf1e809329a5fb7e0079e9"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:041A:E12580:536BF507
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - d818ddef80f4c7d10683dd483558952a
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/burt-edmonson-trackerhub/comments/6260882","html_url":"https://github.com/<GITHUB_USERNAME>/burt-edmonson-trackerhub/commit/87cae6179107e7a0c220f3f83f23edd58cb54c21#commitcomment-6260882","id":6260882,"user":{"login":"<GITHUB_USERNAME>","id":5788989,"avatar_url":"https://avatars.githubusercontent.com/u/5788989?","gravatar_id":"7efdbfec6d8826127f16b24450d6052c","url":"https://api.github.com/users/<GITHUB_USERNAME>","html_url":"https://github.com/<GITHUB_USERNAME>","followers_url":"https://api.github.com/users/<GITHUB_USERNAME>/followers","following_url":"https://api.github.com/users/<GITHUB_USERNAME>/following{/other_user}","gists_url":"https://api.github.com/users/<GITHUB_USERNAME>/gists{/gist_id}","starred_url":"https://api.github.com/users/<GITHUB_USERNAME>/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/<GITHUB_USERNAME>/subscriptions","organizations_url":"https://api.github.com/users/<GITHUB_USERNAME>/orgs","repos_url":"https://api.github.com/users/<GITHUB_USERNAME>/repos","events_url":"https://api.github.com/users/<GITHUB_USERNAME>/events{/privacy}","received_events_url":"https://api.github.com/users/<GITHUB_USERNAME>/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"87cae6179107e7a0c220f3f83f23edd58cb54c21","created_at":"2014-05-08T19:49:41Z","updated_at":"2014-05-08T19:49:41Z","body":"Testing
+        comment functionality"}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:06 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:<GITHUB_PASSWORD>@api.github.com/repos/<GITHUB_USERNAME>/burt-edmonson-trackerhub/commits/130e06ce8ff7da546afc2182cb27a37739f94df1/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:20:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4972'
+      X-Ratelimit-Reset:
+      - '1399584493'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"9bd04d5442878dd5348b2217fbf0e40b"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:041E:9E665CF:536BF507
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - a8d8e492d6966f0c23dee2eed64c678a
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/burt-edmonson-trackerhub/comments/6260885","html_url":"https://github.com/<GITHUB_USERNAME>/burt-edmonson-trackerhub/commit/130e06ce8ff7da546afc2182cb27a37739f94df1#commitcomment-6260885","id":6260885,"user":{"login":"<GITHUB_USERNAME>","id":5788989,"avatar_url":"https://avatars.githubusercontent.com/u/5788989?","gravatar_id":"7efdbfec6d8826127f16b24450d6052c","url":"https://api.github.com/users/<GITHUB_USERNAME>","html_url":"https://github.com/<GITHUB_USERNAME>","followers_url":"https://api.github.com/users/<GITHUB_USERNAME>/followers","following_url":"https://api.github.com/users/<GITHUB_USERNAME>/following{/other_user}","gists_url":"https://api.github.com/users/<GITHUB_USERNAME>/gists{/gist_id}","starred_url":"https://api.github.com/users/<GITHUB_USERNAME>/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/<GITHUB_USERNAME>/subscriptions","organizations_url":"https://api.github.com/users/<GITHUB_USERNAME>/orgs","repos_url":"https://api.github.com/users/<GITHUB_USERNAME>/repos","events_url":"https://api.github.com/users/<GITHUB_USERNAME>/events{/privacy}","received_events_url":"https://api.github.com/users/<GITHUB_USERNAME>/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"130e06ce8ff7da546afc2182cb27a37739f94df1","created_at":"2014-05-08T19:49:48Z","updated_at":"2014-05-08T19:49:48Z","body":"Testing
+        comment functionality 2"}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:07 GMT
+recorded_with: VCR 2.9.0

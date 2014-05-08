@@ -1,0 +1,387 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1071248/stories
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '94'
+      X-Tracker-Pagination-Total:
+      - '16'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '16'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9d68d0f7a9f1d598cc054cc16d1519f2
+      X-Runtime:
+      - '0.047598'
+      Date:
+      - Thu, 08 May 2014 21:20:14 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "story",
+            "id": 70484714,
+            "created_at": "2014-04-30T23:21:44Z",
+            "updated_at": "2014-04-30T23:23:32Z",
+            "accepted_at": "2014-04-30T23:24:45Z",
+            "story_type": "chore",
+            "name": "Create github repo and heroku staging",
+            "current_state": "accepted",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70484714",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70484780,
+            "created_at": "2014-04-30T23:22:43Z",
+            "updated_at": "2014-05-07T21:42:50Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "Create homepage",
+            "description": "Should have:\n\n1. Welcome to OneFeed\n1. OneFeed is the logo and links to the homepage\n1. Login with Facebook text\n1. Login with Twitter text\n1. Should have images of Facebook/Twitter under their login messages\n",
+            "current_state": "delivered",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70484780",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70484832,
+            "created_at": "2014-04-30T23:22:20Z",
+            "updated_at": "2014-05-07T21:42:33Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "Can login with Twitter",
+            "description": "1. Create app on Twitter for localhost and staging\n1. User can login through OmniAuth",
+            "current_state": "delivered",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70484832",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70484868,
+            "created_at": "2014-04-30T23:24:19Z",
+            "updated_at": "2014-05-02T21:27:04Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "Can view Twitter Stream individually",
+            "description": "1. Should be able to view what the user's followers are saying on social media",
+            "current_state": "delivered",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70484868",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70605736,
+            "created_at": "2014-05-02T19:49:36Z",
+            "updated_at": "2014-05-03T14:01:06Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "Logged in user can see their stream",
+            "description": "Currently it is always my stream",
+            "current_state": "delivered",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70605736",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70615220,
+            "created_at": "2014-05-02T21:58:14Z",
+            "updated_at": "2014-05-03T14:02:17Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "if a user's access token is invalid, redirect them to the sign in page",
+            "current_state": "delivered",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70615220",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70628014,
+            "created_at": "2014-05-03T16:02:03Z",
+            "updated_at": "2014-05-05T17:49:23Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "Style feed for Twitter posts",
+            "description": "sections: post header, post body, post info (retweets, favorites, view on Twitter)",
+            "current_state": "delivered",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70628014",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70694828,
+            "created_at": "2014-05-05T17:49:44Z",
+            "updated_at": "2014-05-05T19:10:38Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "Change date format to \"minutes ago\"",
+            "current_state": "delivered",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70694828",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70484858,
+            "created_at": "2014-04-30T23:24:05Z",
+            "updated_at": "2014-05-05T20:03:56Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "Can login with Facebook",
+            "description": "1. Register app for localhost/ staging\n1. Can login with Facebook OAuth",
+            "current_state": "started",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70484858",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70484900,
+            "created_at": "2014-04-30T23:24:30Z",
+            "updated_at": "2014-05-05T20:28:00Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "Can view Facebook stream individually",
+            "current_state": "started",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70484900",
+            "owner_ids": [
+              1256928
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256928
+          },
+          {
+            "kind": "story",
+            "id": 70724800,
+            "created_at": "2014-05-05T23:19:52Z",
+            "updated_at": "2014-05-05T23:19:52Z",
+            "story_type": "bug",
+            "name": "Fix bug with TimeFormatter, make sure that it can show days/hours ago",
+            "current_state": "unstarted",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70724800",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70708464,
+            "created_at": "2014-05-05T20:03:42Z",
+            "updated_at": "2014-05-05T20:03:46Z",
+            "story_type": "feature",
+            "name": "Figure out why \"just now\" doesn't display for posts from 0 minutes ago",
+            "current_state": "unstarted",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70708464",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70690078,
+            "created_at": "2014-05-05T17:00:11Z",
+            "updated_at": "2014-05-05T17:00:11Z",
+            "story_type": "feature",
+            "name": "Figure out how many posts you want to display and set limits on what is returned",
+            "current_state": "unstarted",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70690078",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70639268,
+            "created_at": "2014-05-04T15:44:58Z",
+            "updated_at": "2014-05-04T15:44:58Z",
+            "story_type": "feature",
+            "name": "Figure out why tweets sometimes have a \"...\" and don't show the full tweet",
+            "current_state": "unstarted",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70639268",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70484942,
+            "created_at": "2014-04-30T23:23:30Z",
+            "updated_at": "2014-04-30T23:23:30Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "Can view Twitter and Facebook streams together",
+            "current_state": "unstarted",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70484942",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70613490,
+            "created_at": "2014-05-02T21:26:05Z",
+            "updated_at": "2014-05-03T16:07:43Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "wrap hyperlinks within posts in an anchor tag",
+            "description": "1. use a regex to parse for http://t.co, then get everything after until a black space and wrap it.\n1. figure out way to do this with other networks",
+            "current_state": "unstarted",
+            "requested_by_id": 1256928,
+            "project_id": 1071248,
+            "url": "https://www.pivotaltracker.com/story/show/70613490",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:14 GMT
+recorded_with: VCR 2.9.0

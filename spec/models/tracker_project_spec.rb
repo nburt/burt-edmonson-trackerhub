@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe TrackerProject do
   it 'can pull projects from the tracker api' do
-    VCR.use_cassette('tracker_projects') do
+    VCR.use_cassette('models/tracker_project_spec/tracker_projects') do
       tracker_project = TrackerProject.new
       tracker_projects = tracker_project.projects
       projects_array = tracker_projects.map { |project| project['name'] }
@@ -13,7 +13,7 @@ describe TrackerProject do
   end
 
   it 'can pull stories for a tracker project from the api' do
-    VCR.use_cassette('tracker_stories') do
+    VCR.use_cassette('models/tracker_project_spec/tracker_stories') do
       tracker_projects = TrackerProject.new
       tracker_stories = tracker_projects.stories(1071248)
       stories_array = tracker_stories.map { |story| story['name'] }
@@ -24,7 +24,7 @@ describe TrackerProject do
   end
 
   it 'can pull comments for a tracker project from the api' do
-    VCR.use_cassette('tracker_comments') do
+    VCR.use_cassette('models/tracker_project_spec/tracker_comments') do
       tracker_stories = TrackerProject.new
       tracker_comments = tracker_stories.comments(1071248)
       comments_array = tracker_comments.map { |comment| comment['text']}

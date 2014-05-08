@@ -19,4 +19,6 @@ VCR.configure do |c|
   c.hook_into :webmock
 
   c.filter_sensitive_data('<TRACKER_TOKEN>') { ENV['TRACKER_API_TOKEN'] }
+  c.filter_sensitive_data('<GITHUB_USERNAME>') { ENV['GITHUB_USERNAME'] }
+  c.filter_sensitive_data('<GITHUB_PASSWORD>') { ENV['GITHUB_PASSWORD'] }
 end
