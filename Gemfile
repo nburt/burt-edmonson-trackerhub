@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 gem 'rails', '4.1.1'
 gem 'dotenv-rails', '~> 0.11.1'
 gem 'pg'

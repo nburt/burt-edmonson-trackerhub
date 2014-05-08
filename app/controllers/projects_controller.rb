@@ -5,5 +5,7 @@ class ProjectsController < ApplicationController
 
   def show
     @tracker_stories = TrackerProject.new.stories(params[:id])
+    @tracker_comments = TrackerProject.new.comments(params[:id])
   end
+
 end

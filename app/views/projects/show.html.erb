@@ -4,3 +4,10 @@
     <li><%= story['name'] %></li>
   </ul>
 <% end %>
+
+<h1>Tracker Comments</h1>
+<% @tracker_comments.each do |comment| %>
+  <ul>
+    <li><%= comment %></li>
+  </ul>
+<% end %>

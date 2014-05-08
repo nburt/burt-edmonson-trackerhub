@@ -15,4 +15,13 @@ feature 'Veiwing Tracker Stories' do
     expect(page).to have_content("Create homepage")
     expect(page).to have_content("Can login with Twitter")
   end
+
+  scenario 'User can click project link and see comments'do
+    visit '/projects'
+    click_on 'OneFeed'
+    expect(page).to have_content("Awesome homepage!")
+    expect(page).to have_content("Agreed!")
+    expect(page).to have_content("Cool Twitter login")
+  end
+
 end
