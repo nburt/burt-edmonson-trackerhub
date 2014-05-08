@@ -14,6 +14,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 group :test do
   gem 'capybara', '~> 2.2.1'
+  gem 'vcr', '~> 2.9.0'
+  gem 'webmock', '~> 1.17.4'
 end
 
 group :development, :test do

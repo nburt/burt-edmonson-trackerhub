@@ -14,3 +14,9 @@ RSpec.configure do |config|
   config.order = "random"
 end
 
+VCR.configure do |c|
+  c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
+  c.hook_into :webmock
+
+  c.filter_sensitive_data('<TRACKER_TOKEN>') { ENV['TRACKER_API_TOKEN'] }
+end
