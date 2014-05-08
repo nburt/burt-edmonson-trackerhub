@@ -26,10 +26,12 @@ describe TrackerProject do
   it 'can pull comments for a tracker project from the api' do
     VCR.use_cassette('tracker_comments') do
       tracker_stories = TrackerProject.new
+      tracker_comments = tracker_stories.comments(1071248)
+      comments_array = tracker_comments.map { |comment| comment['text']}
 
-      expect(tracker_stories.comments(1071248)).to include('Awesome homepage!')
-      expect(tracker_stories.comments(1071248)).to include('Agreed!')
-      expect(tracker_stories.comments(1071248)).to include('Cool Twitter login')
+      expect(comments_array).to include('Awesome homepage!')
+      expect(comments_array).to include('Agreed!')
+      expect(comments_array).to include('Cool Twitter login')
     end
   end
 end

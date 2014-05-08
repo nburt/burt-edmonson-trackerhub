@@ -18,10 +18,6 @@ class TrackerProject
     story_id_array.each do |id|
       response_array << JSON.parse(tracker_api.results("projects/1071248/stories/#{id}/comments"))
     end
-    comment_array = []
-    response_array.each do |story|
-      comment_array << story.map { |comment| comment["text"] }
-    end
-    comment_array.flatten!
+    response_array.flatten!
   end
 end
